@@ -1,0 +1,62 @@
+.menu-item-page {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: rgb(44, 42, 42);
+  }
+
+  .menu-item-page .item-image img {
+    width: 600px;
+    max-height: 400px;
+    object-fit: cover;
+    padding: 10px;
+    border: outset gray;
+    
+  }
+  
+  .menu-item-page .item-image {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .menu-item-page .item-details {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    color: aliceblue;
+  }
+  
+  .menu-item-page h2 {
+    margin-top: 0;
+  }
+  
+  .menu-item-page p {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-page .options-container {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item-page .options-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .menu-item-page .options-container select,
+  .menu-item-page .options-container input {
+    margin-bottom: 10px;
+  }
+  
+  .menu-item-page .buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu-item-page .buttons-container button {
+    padding: 10px 20px;
+  }
+  
+  
